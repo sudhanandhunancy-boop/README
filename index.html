@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Application Form</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🎓 College Application Form</h1>
+    <p class="subtitle">Please fill in all the required details carefully.</p>
+
+    <form id="applicationForm">
+
+        <!-- Full Name -->
+        <div class="input-box">
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your full name" required>
+        </div>
+
+        <!-- Gender -->
+        <div class="input-box">
+            <label>Gender</label>
+
+            <div class="gender">
+                <label><input type="radio" name="gender"> Male</label>
+
+                <label><input type="radio" name="gender"> Female</label>
+
+                <label><input type="radio" name="gender"> Other</label>
+            </div>
+        </div>
+
+        <!-- Date of Birth -->
+        <div class="input-box">
+            <label>Date of Birth</label>
+            <input type="date" required>
+        </div>
+
+        <!-- Email -->
+        <div class="input-box">
+            <label>Email Address</label>
+            <input type="email" placeholder="example@gmail.com" required>
+        </div>
+
+        <!-- Mobile -->
+        <div class="input-box">
+            <label>Mobile Number</label>
+            <input type="tel" placeholder="Enter Mobile Number" required>
+        </div>
+
+        <!-- Address -->
+        <div class="input-box">
+            <label>Address</label>
+            <textarea rows="4" placeholder="Enter your address"></textarea>
+        </div>
+
+        <!-- City -->
+        <div class="input-box">
+            <label>City</label>
+            <input type="text" placeholder="Enter your city">
+        </div>
+
+        <!-- State -->
+        <div class="input-box">
+            <label>State</label>
+
+            <select required>
+                <option value="">Select State</option>
+                <option>Tamil Nadu</option>
+                <option>Kerala</option>
+                <option>Karnataka</option>
+                <option>Andhra Pradesh</option>
+                <option>Telangana</option>
+            </select>
+        </div>
+
+        <!-- Course -->
+        <div class="input-box">
+            <label>Course Applying For</label>
+
+            <select required>
+                <option value="">Select Course</option>
+                <option>B.Tech IT</option>
+                <option>B.Tech CSE</option>
+                <option>BCA</option>
+                <option>B.Sc Computer Science</option>
+                <option>B.Com</option>
+                <option>MBA</option>
+            </select>
+        </div>
+
+        <!-- Department -->
+        <div class="input-box">
+            <label>Department</label>
+
+            <select required>
+                <option value="">Select Department</option>
+                <option>Information Technology</option>
+                <option>Computer Science</option>
+                <option>Electronics</option>
+                <option>Mechanical</option>
+                <option>Civil</option>
+            </select>
+        </div>
+
+        <!-- Percentage -->
+        <div class="input-box">
+            <label>12th Percentage</label>
+            <input type="number" placeholder="Enter Percentage">
+        </div>
+
+        <!-- Aadhaar -->
+        <div class="input-box">
+            <label>Aadhaar Number</label>
+            <input type="text" placeholder="Enter Aadhaar Number">
+        </div>
+
+        <!-- Parent Name -->
+        <div class="input-box">
+            <label>Parent / Guardian Name</label>
+            <input type="text" placeholder="Enter Parent Name">
+        </div>
+
+        <!-- Parent Mobile -->
+        <div class="input-box">
+            <label>Parent Mobile Number</label>
+            <input type="tel" placeholder="Enter Parent Mobile Number">
+        </div>
+
+        <!-- Description -->
+        <div class="input-box">
+            <label>Description</label>
+
+            <textarea rows="5" placeholder="Why do you want to join this college?"></textarea>
+        </div>
+
+        <hr>
+
+        <h2>Upload Documents</h2>
+
+        <!-- Passport -->
+        <div class="input-box">
+            <label>Upload Passport Size Photo</label>
+            <input type="file">
+        </div>
+
+        <!-- 10th -->
+        <div class="input-box">
+            <label>Upload 10th Marksheet</label>
+            <input type="file">
+        </div>
+
+        <!-- 12th -->
+        <div class="input-box">
+            <label>Upload 12th Marksheet</label>
+            <input type="file">
+        </div>
+
+        <!-- Aadhaar -->
+        <div class="input-box">
+            <label>Upload Aadhaar Card</label>
+            <input type="file">
+        </div>
+
+        <!-- TC -->
+        <div class="input-box">
+            <label>Upload Transfer Certificate</label>
+            <input type="file">
+        </div>
+
+        <!-- Declaration -->
+        <div class="checkbox">
+            <input type="checkbox" required>
+
+            <label>
+                I hereby declare that the information provided above is true and correct.
+            </label>
+        </div>
+
+        <br>
+
+        <!-- Submit -->
+        <button type="submit" class="btn">
+            Submit Application
+        </button>
+
+    </form>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
